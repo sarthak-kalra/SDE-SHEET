@@ -13,9 +13,9 @@ class Solution {
             }
         }
         
-        if(si>=s.length()){
+        if(si==s.length()){
             return true;
-        }
+        }else{
         return false;
-    }
+    }}
 }
