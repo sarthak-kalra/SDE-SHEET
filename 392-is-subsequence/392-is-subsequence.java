@@ -1,8 +1,5 @@
 class Solution {
     public boolean isSubsequence(String s, String t) {
-      if(s.length()>t.length()){
-          return false;
-      }
         int si = 0;
        int bi = 0;
         
